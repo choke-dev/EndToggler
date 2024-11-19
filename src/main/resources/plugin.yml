@@ -1,0 +1,33 @@
+name: EndToggler
+version: '${project.version}'
+main: dev.choke.endtoggler.EndToggler
+api-version: '1.20'
+authors: [chokedd]
+description: Allows you to close and open the end at will
+
+permissions:
+  endtoggler.toggle:
+    description: "Allows you to close and open the end at will"
+    default: op
+  endtoggler.reload:
+    description: "Allows you to reload the plugin configuration"
+    default: op
+  endtoggler.bypass.enterportal:
+    description: "Players with this permission can enter the end even if it is disabled"
+    default: false
+  endtoggler.bypass.insertendereye:
+    description: "Players with this permission can insert an eye of ender even if it is disabled"
+    default: false
+
+commands:
+  endtoggler:
+    usage: /<command> <enable|disable>
+    description: Disables or enables the end
+    permission: endtoggler.toggle
+  endstatus:
+    usage: /<command>
+    description: Retrieves the status of the end
+  endreload:
+    usage: /<command>
+    description: Reloads plugin configuration
+    permission: endtoggler.reload

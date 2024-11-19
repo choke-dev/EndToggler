@@ -1,0 +1,7 @@
+endPortal:
+  enabled: true
+  allowInsertEnderEye: false
+  allowEnterEnd: false
+
+# Please do not edit this, it will cause issues when updating the plugin.
+version: 1.0

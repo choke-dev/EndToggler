@@ -1,0 +1,18 @@
+endPortal:
+    enabled: "&aThe end portal has been enabled!"
+    disabled: "&cThe end portal has been disabled!"
+    alreadyEnabled: "&cThe end portal is already enabled!"
+    alreadyDisabled: "&cThe end portal is already disabled!"
+    noPermission: "&cYou do not have permission to use this command."
+
+    endStatus: "&dThe end portal is currently &r{status}&d."
+    endStatusEnabled: "&aenabled"
+    endStatusDisabled: "&cdisabled"
+
+    attemptedPortalEnter: "&cYou cannot enter the end at this time."
+    attemptedEnderEyePlace: "&cYou cannot insert an eye of ender at this time."
+
+plugin:
+  reloadingConfiguration: "&7Reloading plugin configuration..."
+  configurationReloaded: "&aPlugin configuration reloaded."
+  wrongUsage: "&cUsage: /endtoggler <enable|disable>"
